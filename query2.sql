@@ -1,2 +1,1 @@
-
-select title,publisher from books where publisher in (select id from publisher where country=="UK");
+SELECT b.title, p.name FROM books b, publisher p WHERE p.id=b.publisher and p.country='UK';
