@@ -1,3 +1,4 @@
+
 DELETE FROM books_subjects 
 WHERE 
 subject=
@@ -6,3 +7,4 @@ subject=
 DELETE FROM subjects
 WHERE 
 name = 'History';
+

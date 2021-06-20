@@ -1,4 +1,4 @@
-PRAGMA foreign_keys = ON;
+
 
 CREATE TABLE publisher(
     id integer PRIMARY KEY,
@@ -26,3 +26,4 @@ CREATE TABLE books_subjects(
     CONSTRAINT fk_subjects
     foreign key(subject) references subjects(id)
 );
+

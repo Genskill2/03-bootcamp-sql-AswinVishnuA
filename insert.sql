@@ -43,4 +43,3 @@ INSERT INTO books_subjects (book, subject) VALUES ((SELECT id FROM books WHERE t
 INSERT INTO books_subjects (book, subject) VALUES ((SELECT id FROM books WHERE title = 'The City and The City'), (SELECT id FROM subjects WHERE name = 'Politics'));
 INSERT INTO books_subjects (book, subject) VALUES ((SELECT id FROM books WHERE title = 'The Great War for Civilisation'), (SELECT id FROM subjects WHERE name = 'Politics'));
 INSERT INTO books_subjects (book, subject) VALUES ((SELECT id FROM books WHERE title = 'The Great War for Civilisation'), (SELECT id FROM subjects WHERE name = 'History'));
-
